@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 10px; */
+    /* 10px/16px = .625 = 62.5%  */
+    /* percentage of user's browser font-size settings */
+    font-size: 62.5%;
+    /* 10px */
+
+
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    overflow-x: hidden;
+}
+.test{
+    background-color: red;
+    padding: 10rem;
+    /* 10px * 10rem = 100px */
+    max-width: 100rem;
+
+    /* 1rem=16px = default browser font size = 16px */
+}
